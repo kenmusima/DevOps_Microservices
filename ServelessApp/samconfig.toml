@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "ServelessApp90"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-5nh5nck0tpdh"
+s3_prefix = "ServelessApp90"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = ["HelloWorldFunction=607764202231.dkr.ecr.us-east-1.amazonaws.com/servelessapp90116aef21/helloworldfunction19d43fc4repo"]
